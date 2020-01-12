@@ -78,6 +78,7 @@ class App extends React.Component {
           isLoading: false
         })
       })
+      .catch(err => console.log(err));
   }
   render() {
     return (
